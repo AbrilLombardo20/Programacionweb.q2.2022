@@ -1,0 +1,39 @@
+3 FORMAS DE INTEGRAR CSS CON HTML
+1) External, son dos archivos distintos
+2) Interna, se escribe el css en el head
+3) Inline, se escribe en el propio HTML (mala práctica)
+
+EN LUGAR DE PONER TODAS LAS VECES EL H1, CREO UNA CLASE Y PUEDO LLAMARLA: class="nombre"
+
+ID: es único, no se lo puedo repetir a otra cosa.
+
+Color hexadecimal:
+0 1 2 3 4 5 6 7 8 9 a b c d e f 
+red green blue (RGB)
+#000000
+00 rojo
+00 verde
+00 azul
+
+#ff0000 el rojo mas rojo
+#00ff00 el verde mas verde
+#0000ff el azul mas azul
+
+
+#ffff00 amarillo
+#ffffff blanco
+#000000 negro
+
+
+CONCEPTO DE POSICIÓN: existen 5 tipos para indicarle a la caja dónde va a estar.
+1) static: se va a ubicar donde caiga en el html 
+2) relative: corro la imagen hacia la izquierda, derecha, arriba o abajo y puedo superponerlas.
+3) fixed: siempre se queda en el mismo lugar a pesar de que me desplace hacia algún lado en mi página. 
+4) absolute: se remueven the normal flow, deja el hueco, no lo sigue ocupando como en el relativo.
+5) sticky: cuando bajo se mantiene en el borde superior, basado en el conteiner que lo tenga, hay que ponerlo en el body; en general lo único que va a estar en esta posición es el head. 
+
+LAS CAJAS DE CSS TIENEN 4 PARTES:
+- Margen
+- Borde
+- Padding.
+- Contenido
