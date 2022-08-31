@@ -1,0 +1,28 @@
+
+*{
+font-family: "arial", sans-serif;
+font-style: italic ;
+font-weight: 100;
+font-variant: small-caps;
+font-size: 10px;
+}
+#caja1{
+    border: 1px solid red;
+    margin-top: 50px;
+    padding-top: 100px;
+}
+#caja2{
+    margin: 10px 20px 30px 40px;
+    /*top right bottom left*/
+    border: 1px solid red;
+    /*debuggear*/
+}
+#imagen-responsive{
+width: 25%;
+border: 1px solid red;
+display: block;
+}
+li{
+    display: inline;
+   margin-left: 50px ;
+}

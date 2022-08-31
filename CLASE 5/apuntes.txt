@@ -1,0 +1,45 @@
+CSS units: unidades de medidas
+Absolutas: se puede medir en cm, mm, px.
+Relativas: adaptan al tamaño de pantalla:
+em: relativa al tamaño de la fuente (de la letra del elemento)
+vw: es el 1% del ancho de la pantalla
+vh: es el 1% del alto de la pantalla
+Las medidas me permiten modificar los tamaños según qué es lo que quiero mostrar
+Se aplican al ancho, al tamaño de la fuente.
+
+EXPLICA CÓMO VER QUÉ PARTE DE LOS BORDES ESTOY EDITANDO
+EXPLICA CÓMO HACER ANIMACIONES CON UN TUTORIAL.
+
+Display: puede tomar varios valores:
+none: saca la imagen, sirve para adaptar mi web para que no se vean ciertos elementos en algún tamaño de pantalla específico.
+block: ocupa todo el ancho
+inline: coloca los elementos uno al lado del otro. Para que me separe en determinado espacio hacemos un margin. Pierdo el control sobre los márgenes superiores e inferiores.
+inline-block: Puedo manejar los 4 márgenes.
+
+FUENTES:
+serif: no ocupan el mismo espacio de ancho.
+sin serif
+monospace: todas las letras ocupan el mismo ancho.
+fantasy: tiene mucho decorado.
+
+STYLES:
+normal
+italic: inclinadas
+bold: negrita
+font weight: grosor de la letra
+
+
+VARIACIONES: 
+small caps: convierte las letras en mayúscula
+
+TAMAÑOS: podemos usar varias unidades de medida. Se intentaría mantener siempre en pixeles. 
+Siempre trabajar párrafo por párrafo y no con algo global.
+
+En el archivo de google donde tengo las fuentes, aparece un link para agregarlo con la letra y tipo que quiero utilizar. 
+Además puedo utilizar los íconos, copiando el link y después copio el código.
+
+
+1) Cambiar las fuentes.
+2) Crear el menú de navegación.
+3) Cambiar medidas correspondientes a Relativas.
+
