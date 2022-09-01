@@ -1,13 +1,15 @@
 * {border: 1px solid aqua;}
 body{
-    background-color: rgb(52, 65, 60);
+    background-color: rgb(180, 197, 191);
 }
 .titular{
     background-color: aquamarine;
-    color: grey;
+    color: rgb(235, 198, 198);
     font-size: 50px;
 }
-
+#titulo{
+font-family: Arial, Helvetica, sans-serif;
+}
 #padding-interno {
     padding: 50px;
     margin: 10px;
@@ -22,9 +24,11 @@ body{
 
 #relativa{ 
     position: relative;
-    right: 100px;
-    top: 100px;}
+    width: 18%;
+    left: 20px;
+;}
 #whatsapp {position: fixed;
     bottom:10px;
     right:10px;
+    width: 50px;
 }
