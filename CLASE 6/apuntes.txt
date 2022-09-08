@@ -1,0 +1,42 @@
+flex conteiner: todos los divs que esten adentro van a tener las propiedades que les pongamos
+flex wrap: automaticamente cuando se completa el ancho lo mando a la linea de abajo
+flex nowrap: los achica a todos para que entren en la misma linea
+Nos permite organizar las cosas en un eje
+flex direction column: los coloca hacia abajo, en una columna
+column reverse: columnas invertidas, empieza por el final
+flex direction row: horizontal
+justify content: justificar contenido; tengo flex start (depende de la orientación de los elementos) y flex end.
+space around: distribuye los items entre uno y el otro, deja el mismo espacio entre los componentes
+space between: se distribuyen solo en el espacio entre medio, en cambio en el anterior distribuye los espacios en los márgenes tambien
+stretch: hace que encajen en el conteiner
+baseline: alinea los items 
+Para centrar perfectamente dentro del conteiner una vez ya creado con display flex:
+justify items: center
+justify content: center
+SERÍA:
+flex-conteiner{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 500px;
+    background-color: DodgerBlue;
+} lograria de esta forma que me centre un cuadrdado blanco perfectamente con fondo azul
+
+align content: alinea cada renglon del conteiner hacia donde yo pida.
+
+
+child elements (los que estan dentro del contenedor)
+"Las propiedades se ponen en el elemento padre y los que están adentro la van a "heredar"". EJEMPLO:
+<div class="flex-conteiner">
+    <div>1<div>
+    <div>2<div>
+    <div>3<div>
+</div>
+Puedo forzarles un orden distinto (pedirle al 1 que sea 3 por ejemplo). Le puedo especificar en qué lugar quiero que vaya
+
+Con flex grow puedo decirle cuanto espacio va a ocupar (de ancho), puedo pedirle que ocupe la cantidad de unidades que quiera dentro del ancho total
+flex shrink: angostear, achicar el ancho
+Estoy especificando propiedades para un item
+align self: alinear hacia arriba, hacia abajo o hacia los costados.
+
+FLEXBOX FROGGY (juego para entender esto)
